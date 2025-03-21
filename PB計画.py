@@ -1,17 +1,13 @@
-# 4変数用ベイズ最適化プログラム
 import h5py
 import shutil
 import numpy as np
 import pandas as pd
 import pathlib as path
-
-
 import csv
 import os
 
-
 # 自分で設定する値
-n = 16  # 計算回数
+n = 13  # 計算回数
 
 
 # CSVファイル読み込み
